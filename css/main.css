@@ -48,7 +48,7 @@ main {
   bottom: 110px;
   right: 20px;
   color: white;
-  background-color: rgb(254, 111, 15);
+  background-color: var(--button-primary);
   padding: 10px 15px 10px 15px;
   border-radius: 18px;
   font-size: 15px;
@@ -58,5 +58,5 @@ main {
 }
 
 .write-btn:hover {
-  background-color: rgba(254, 111, 15, 0.8);
+  background-color: var(--button-primary-button-hover);
 }
